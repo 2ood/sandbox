@@ -17,7 +17,7 @@ const datatypes= {
 console.log(datatypes);
 
 //array
-const arrayExample =  ["mon","tue"];
+const arrayExample =  ["mon","tue"] ;
 console.log(arrayExample[0]); //access
 arrayExample.push("wed");//Add one more item to the array
 
