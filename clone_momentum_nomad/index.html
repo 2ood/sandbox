@@ -2,11 +2,20 @@
 <html lang="kr" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewprot" content ="width=device-width">
     <link rel="stylesheet" href="style.css">
     <title>Momenti</title>
   </head>
   <body>
-    <h1 id="title">Momenti</h1>
+    <form id="login-form">
+      <input
+      required
+      type="text"
+      maxlength="15"
+      placeholder="What is your name?"/>
+      <button type="submit">Login</button>
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
   <script src="script.js"></script>
   </body>
 </html>
