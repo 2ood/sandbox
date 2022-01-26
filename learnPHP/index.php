@@ -1,5 +1,6 @@
 <html>
 <?php
+/*
     $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
     $server = $url["host"];
@@ -14,6 +15,7 @@
     }
 
     else echo "<h3>This is a php embbeded title</h3>";
+*/
 ?>
     <head>
         <title>Test</title>
@@ -25,7 +27,7 @@
             <td style="width: 150px; text-align:center;">Item</td>
             <td style="width: 15px; text-align:center;">Quantity</td>
             </tr>
-        
+
         <tr>
             <td>Tires</td>
             <td> <input type="text" name="tireqty" size="3" maxlength="3"/></td>
