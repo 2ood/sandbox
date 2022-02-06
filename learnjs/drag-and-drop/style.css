@@ -1,0 +1,28 @@
+* {
+    magin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+body {
+    background-color : white;
+}
+
+ul {
+    list-style : none;
+}
+
+.column  {
+    width : 33%;
+    background-color : #b3b3b3;
+    padding : 10px;
+}
+
+.column .draggable {
+    padding : 5px;
+    background-color : white;
+}
+
+ul li {
+    margin : 10px;
+}
